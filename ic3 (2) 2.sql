@@ -1,11 +1,48 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- 主机： localhost
--- 生成日期： 2025-12-27 10:41:36
--- 服务器版本： 5.7.44-log
--- PHP 版本： 8.0.26
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website của tôi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .card {
+      max-width: 500px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 20px;
+      background: #1e293b;
+    }
+    h1 {
+      color: #60a5fa;
+    }
+    button {
+      padding: 12px 22px;
+      border: none;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Xin chào! 👋</h1>
+    <p>Chào mừng bạn đến với website đầu tiên của tôi.</p>
+    <button onclick="alert('Website hoạt động tốt!')">
+      Bấm vào đây
+    </button>
+  </div>
+</body>
+</html>
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
